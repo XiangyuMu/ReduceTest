@@ -1,0 +1,8 @@
+java -cp .;E:\gradleStore\caches\modules-2\files-2.1\com.github.javaparser\javaparser-core\3.15.7\4f9b89ea20968369c776000942399e2ee3bd09b0\javaparse
+r-core-3.15.7.jar;E:\gradleStore\caches\modules-2\files-2.1\org.jboss.byteman\byteman\4.0.13\f4e8cf71e790aba8b18a0b7f689e38773e1f9bea\byteman-4.0.13.jar -javaagent:%BYTEMAN_HOME%\lib\b
+yteman.jar=script:BytemanProgram\Example01.btm Demo
+
+
+javac -Xlint:unchecked -classpath .;E:\gradleStore\caches\modules-2\files-2.1\com.github.javaparser\javaparser-core\3.15.7\4f9b89ea20968369c77600094
+2399e2ee3bd09b0\javaparser-core-3.15.7.jar;E:\gradleStore\caches\modules-2\files-2.1\org.jboss.byteman\byteman\4.0.13\f4e8cf71e790aba8b18a0b7f689e38773e1f9bea\byteman-4.0.13.jar -g sea
+rchOnInternet\Example01.java

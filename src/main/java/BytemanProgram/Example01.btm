@@ -1,0 +1,87 @@
+RULE INIT
+CLASS reduceExample.TestTools
+METHOD readTestCase(String)
+HELPER BytemanProgram.BytemanHelper
+AT ENTRY
+IF true
+DO initFunc();
+ENDRULE
+
+RULE InitList
+CLASS reduceExample.TestTools
+METHOD readTestCase(String)
+HELPER BytemanProgram.BytemanHelper
+AT LINE 37
+IF true
+DO initList()
+ENDRULE
+
+RULE LINE29
+CLASS searchOnInternet.Example01
+METHOD reduce(ElemwntList)
+HELPER BytemanProgram.BytemanHelper
+AT LINE 29
+IF true
+DO valueTransform("value","list","29");
+traceln("LINE29");
+ENDRULE
+
+RULE LINE30
+CLASS searchOnInternet.Example01
+METHOD reduce(ElemwntList)
+HELPER BytemanProgram.BytemanHelper
+AT LINE 30
+IF true
+DO valueTransformUnion("friends","value");
+traceln("LINE30");
+ENDRULE
+
+RULE LINE34
+CLASS searchOnInternet.Example01
+METHOD reduce(ElemwntList)
+HELPER BytemanProgram.BytemanHelper
+AT LINE 34
+IF true
+DO valueTransform("f1","friends","34");
+traceln("LINE34");
+ENDRULE
+
+RULE LINE35
+CLASS searchOnInternet.Example01
+METHOD reduce(ElemwntList)
+HELPER BytemanProgram.BytemanHelper
+AT LINE 35
+IF true
+DO valueTransform("f2","friends","35");
+traceln("LINE35");
+ENDRULE
+
+RULE LINE37
+CLASS searchOnInternet.Example01
+METHOD reduce(ElemwntList)
+HELPER BytemanProgram.BytemanHelper
+AT LINE 37
+IF true
+DO valueTransformCover("k","f1");
+traceln("LINE37");
+ENDRULE
+
+RULE LINE38
+CLASS searchOnInternet.Example01
+METHOD reduce(ElemwntList)
+HELPER BytemanProgram.BytemanHelper
+AT LINE 38
+IF true
+DO valueTransformCover("v","f2");
+traceln("LINE38");
+ENDRULE
+
+RULE LINE39
+CLASS searchOnInternet.Example01
+METHOD reduce(ElemwntList)
+HELPER BytemanProgram.BytemanHelper
+AT LINE 39
+IF true
+DO valueTransformUnion("output","v");
+traceln("LINE39");
+ENDRULE

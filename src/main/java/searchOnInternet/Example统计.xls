@@ -1,0 +1,60 @@
+	SingleItem	IndexValuePair	MaxRow	FirstN	StrConcat	Other
+Example01						1
+Example02	1					
+Example03						1
+Example04					1	
+Example05					1	
+Example06		1				
+Example07		1				
+Example08						1
+Example09	1					
+Example10					1	
+Example11						1
+Example12		1				
+Example13			1			
+Example14	1					
+Example15				1		
+Example16						
+Example17	1					
+Example18					1	
+Example19		1				
+Example20						1
+Example21			1			
+Example22				1		
+Example23				1		
+Example24			1			
+Example25					1	
+Example26						
+Example27				1		
+Example28						1
+Example29					1	
+Example30				1		
+Example31						1
+Example32					1	
+Example33					1	
+Example34			1			
+Example35						
+Example36						1
+Example37			1			
+Example38						1
+Example39				1		
+Example40				1		
+Example41				1		
+Example42		1				
+Example43					1	
+Example44						1
+Example45						1
+Example46	1					
+Example47					1	
+Example48	1					
+Example49				1		
+Example50						1
+Example51				1		
+Example52		1				
+Example53		1				
+Example54			1			
+Example55	1					
+Example56	1					
+Example57					1	12
+	8	7	6	10		
+					11	
