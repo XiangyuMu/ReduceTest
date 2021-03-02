@@ -34,6 +34,8 @@ public class BytemanHelper extends Helper {
         valueList.add("v"+readCounter("ValueNum"));
         incrementCounter("ValueNum");
         traceln("valueList: "+linked("KeyWordMap","list"));
+
+
     }
 
 
